@@ -1,0 +1,296 @@
+body{
+// activityBar
+/*"activityBar.activeBorder"*/ background:  #5fb3b3;
+/*"activityBar.activeBackground": "*/ background: #343d46;
+/*"activityBar.background": "*/ background: #1b2b34;
+/*"activityBar.border": "*/ background: #1b2b34;
+/*"activityBar.dropBackground": "*/ background: #0b151b;
+/*"activityBar.foreground": "*/ background: #d8dee9;
+/*"activityBar.inactiveForeground": "*/ background: #65737e;
+/*"activityBarBadge.background": "*/ background: #fac863;
+/*"activityBarBadge.foreground": "*/ background: #1b2b34;
+// badge
+/*"badge.background": "*/ background: #343d46;
+/*"badge.foreground": "*/ background: #d8dee9;
+// button
+/*"button.background": "*/ background: #5fb3b3;
+/*"button.hoverBackground": "*/ background: #4e9b9b;
+// breadcrumb
+/*"breadcrumb.background": "*/ background: #0f1c23;
+// contrast
+// /*"contrastActiveBorder": "*/ background: #ffffff00; // This breaks "Select Interpreter" panel
+// /*"contrastBorder": "*/ background: #ffffff00; // removing because it's only needed in a high contrast theme
+// debug
+/*"debugExceptionWidget.background": "*/ background: #1b2b34;
+/*"debugExceptionWidget.border": "*/ background: #d8dee9;
+/*"debugToolBar.background": "*/ background: #1b2b34;
+// description
+/*"descriptionForeground": "*/ background: #d8dee9;
+// diff
+/*"diffEditor.insertedTextBackground": "*/ background: #99c79422;
+/*"diffEditor.insertedTextBorder": "*/ background: #99c794;
+/*"diffEditor.removedTextBackground": "*/ background: #ed6f7d22;
+/*"diffEditor.removedTextBorder": "*/ background: #ed6f7d;
+// dropdown
+/*"dropdown.background": "*/ background: #0b151b;
+/*"dropdown.border": "*/ background: #5fb3b3;
+/*"dropdown.foreground": "*/ background: #ffffff;
+// editor
+// This is the main background color
+/*"editor.background": "*/ background: #232a55; /* #1b2b34 -> #232a55 */
+// this is the main text colour
+/*"editor.foreground": "*/ background: #fff;
+// Currently found item
+/*"editor.findMatchBackground": "*/ background: #2f387b; /* #343d46 -> #2f387b */
+/*"editor.findMatchBorder": "*/ background: #4f65f1; /* #5fb3b3ee -> #4f65f1 */
+// Other Found Items
+/*"editor.findMatchHighlightBackground": "*/ background: #5fb3b370;
+/*"editor.findRangeHighlightBackground": "*/ background: #5fb3b370;
+/*"editor.hoverHighlightBackground": "*/ background: #343d46;
+/*"editor.inactiveSelectionBackground": "*/ background: #1b2b34;
+// current line styles
+/*"editorIndentGuide.activeBackground": "*/ background: #65737e;
+/*"editor.lineHighlightBackground": "*/ background: #343d46;
+/*"editor.lineHighlightBorder": "*/ background: #343d46;
+/*"editor.rangeHighlightBackground": "*/ background: #343d46;
+// selected Text colours
+/*"editor.selectionBackground": "*/ background: #4f5b66;
+/*"editor.selectionForeground": "*/ background: #fff;
+/*"editor.selectionHighlightBackground": "*/ background: #343d46;
+/*"editor.selectionHighlightBorder": "*/ background: #5fb3b3;
+/*"editor.wordHighlightBackground": "*/ background: #4f5b66;
+/*"editor.wordHighlightStrongBackground": "*/ background: #65737e;
+/*"editorBracketMatch.background": "*/ background: #343d46;
+/*"editorBracketMatch.border": "*/ background: #fac863;
+/*"editorBracketHighlight.foreground1": "*/ background: #5fb3b3;
+/*"editorBracketHighlight.foreground2": "*/ background: #c5a5c5;
+/*"editorBracketHighlight.foreground3": "*/ background: #5a9bcf;
+/*"editorBracketHighlight.foreground4": "*/ background: #fac863;
+/*"editorCodeLens.foreground": "*/ background: #d8dee9;
+/*"editorCursor.foreground": "*/ background: #fac863;
+/*"editorError.border": "*/ background: #343d46;
+/*"editorError.foreground": "*/ background: #ed6f7d;
+// gutter
+/*"editorGutter.background": "*/ background: #1b2b34;
+/*"editorGutter.addedBackground": "*/ background: #99c794;
+/*"editorGutter.deletedBackground": "*/ background: #ed6f7d;
+/*"editorGutter.modifiedBackground": "*/ background: #fac863aa;
+// editorGroup
+/*"editorGroup.emptyBackground": "*/ background: #22363f;
+/*"editorGroup.focusedEmptyBorder": "*/ background: #5fb3b3;
+/*"editorPane.background": "*/ background: #1b2b34;
+/*"editorGroup.border": "*/ background: #343d46;
+/*"editorGroup.dropBackground": "*/ background: #343d46;
+// editorGroupHeader
+/*"editorGroupHeader.noTabsBackground": "*/ background: #1b2b34;
+/*"editorGroupHeader.tabsBackground": "*/ background: #1b2b34;
+/*"editorGroupHeader.tabsBorder": "*/ background: #343d46;
+// editorHoverWidget
+/*"editorHoverWidget.background": "*/ background: #0b151b;
+/*"editorHoverWidget.border": "*/ background: #5fb3b3;
+/*"editorIndentGuide.background": "*/ background: #343d46;
+/*"editorLineNumber.foreground": "*/ background: #4f5b66;
+/*"editorLink.activeForeground": "*/ background: #65737e;
+// editorMarkerNavigation
+/*"editorMarkerNavigation.background": "*/ background: #343d46;
+/*"editorMarkerNavigationError.background": "*/ background: #ed6f7d;
+/*"editorMarkerNavigationWarning.background": "*/ background: #99c794;
+// ruler
+/*"editorOverviewRuler.addedForeground": "*/ background: #99c794aa;
+/*"editorOverviewRuler.border": "*/ background: #343d46;
+/*"editorOverviewRuler.commonContentForeground": "*/ background: #c5a5c5aa;
+/*"editorOverviewRuler.currentContentForeground": "*/ background: #5fb3b3aa;
+/*"editorOverviewRuler.deletedForeground": "*/ background: #ed6f7daa;
+/*"editorOverviewRuler.errorForeground": "*/ background: #ed6f7d;
+/*"editorOverviewRuler.incomingContentForeground": "*/ background: #5a9bcfbb;
+/*"editorOverviewRuler.infoForeground": "*/ background: #c5a5c5aa;
+/*"editorOverviewRuler.modifiedForeground": "*/ background: #fac863aa;
+/*"editorOverviewRuler.warningContentForeground": "*/ background: #fac863;
+/*"editorRuler.foreground": "*/ background: #4f5b66;
+// editorSuggestWidget
+/*"editorSuggestWidget.background": "*/ background: #0b151b;
+/*"editorSuggestWidget.border": "*/ background: #5fb3b3;
+/*"editorSuggestWidget.foreground": "*/ background: #d8dee9;
+/*"editorSuggestWidget.highlightForeground": "*/ background: #fac863;
+/*"editorSuggestWidget.selectedBackground": "*/ background: #343d46;
+// editorWarning
+/*"editorWarning.border": "*/ background: #343d46;
+/*"editorWarning.foreground": "*/ background: #fac863;
+/*"editorWhitespace.foreground": "*/ background: #4f5b66;
+/*"editorWidget.background": "*/ background: #0f1c23;
+/*"editorWidget.border": "*/ background: #343d46;
+/*"errorForeground": "*/ background: #ed6f7d;
+// extensionButton
+/*"extensionButton.prominentBackground": "*/ background: #5fb3b3;
+/*"extensionButton.prominentForeground": "*/ background: #fff;
+/*"extensionButton.prominentHoverBackground": "*/ background: #4e9b9b;
+/*"focusBorder": "*/ background: #343d46;
+/*"foreground": "*/ background: #d8dee9;
+//git
+/*"gitDecoration.modifiedResourceForeground": "*/ background: #fac863;
+/*"gitDecoration.deletedResourceForeground": "*/ background: #ed6f7d;
+/*"gitDecoration.untrackedResourceForeground": "*/ background: #5fb3b3;
+/*"gitDecoration.ignoredResourceForeground": "*/ background: #4f5b66;
+/*"gitDecoration.conflictingResourceForeground": "*/ background: #c5a5c5;
+// input
+/*"input.background": "*/ background: #1b2b34;
+/*"input.border": "*/ background: #343d46;
+/*"input.foreground": "*/ background: #fac863;
+/*"input.placeholderForeground": "*/ background: #d8dee9;
+/*"inputOption.activeBorder": "*/ background: #343d46;
+/*"inputValidation.errorBackground": "*/ background: #ed6f7dbb;
+/*"inputValidation.errorBorder": "*/ background: #ed6f7d;
+/*"inputValidation.errorForeground": "*/ background: #fff;
+/*"inputValidation.infoBackground": "*/ background: #5fb3b3bb;
+/*"inputValidation.infoBorder": "*/ background: #5fb3b3;
+/*"inputValidation.infoForeground": "*/ background: #fff;
+/*"inputValidation.warningBackground": "*/ background: #fac863bb;
+/*"inputValidation.warningBorder": "*/ background: #fac863;
+/*"inputValidation.warningForeground": "*/ background: #fff;
+// list
+/*"list.activeSelectionBackground": "*/ background: #343d46;
+/*"list.activeSelectionForeground": "*/ background: #d8dee9;
+/*"list.dropBackground": "*/ background: #343d46;
+/*"list.focusBackground": "*/ background: #343d46;
+/*"list.focusForeground": "*/ background: #d8dee9;
+/*"list.highlightForeground": "*/ background: #fac863;
+/*"list.hoverBackground": "*/ background: #1b2b34;
+/*"list.hoverForeground": "*/ background: #d8dee9;
+/*"list.inactiveSelectionBackground": "*/ background: #343d46;
+/*"list.inactiveSelectionForeground": "*/ background: #d8dee9;
+// merge
+/*"merge.border": "*/ background: #5fb3b3;
+/*"merge.commonContentBackground": "*/ background: #ffffff00;
+/*"merge.commonHeaderBackground": "*/ background: #ffffff00;
+/*"merge.currentContentBackground": "*/ background: #5fb3b370;
+/*"merge.currentHeaderBackground": "*/ background: #5fb3b3bb;
+/*"merge.incomingContentBackground": "*/ background: #5a9bcf70;
+/*"merge.incomingHeaderBackground": "*/ background: #5a9bcfbb;
+// notification
+/*"notification.background": "*/ background: #343d46;
+/*"notifications.border": "*/ background: #5fb3b3;
+/*"notification.buttonBackground": "*/ background: #5fb3b3;
+/*"notification.buttonForeground": "*/ background: #d8dee9;
+/*"notification.buttonHoverBackground": "*/ background: #4e9b9b;
+/*"notification.errorBackground": "*/ background: #ed6f7d;
+/*"notification.errorForeground": "*/ background: #d8dee9;
+/*"notification.foreground": "*/ background: #d8dee9;
+/*"notification.infoBackground": "*/ background: #99c794;
+/*"notification.infoForeground": "*/ background: #d8dee9;
+/*"notificationToast.border": "*/ background: #5fb3b3;
+/*"notification.warningBackground": "*/ background: #fac863;
+/*"notification.warningForeground": "*/ background: #1b2b34;
+/*"notificationCenter.border": "*/ background: #5fb3b3;
+/*"notificationCenterHeader.foreground": "*/ background: #d8dee9;
+/*"notificationCenterHeader.background": "*/ background: #1b2b34;
+/*"notificationLink.foreground": "*/ background: #fac863;
+// panel
+/*"panel.background": "*/ background: #1b2b34;
+/*"panel.border": "*/ background: #5fb3b3;
+/*"panelTitle.activeBorder": "*/ background: #fac863;
+/*"panelTitle.activeForeground": "*/ background: #5fb3b3;
+/*"panelTitle.inactiveForeground": "*/ background: #d8dee9;
+// peekView
+/*"peekView.border": "*/ background: #343d46;
+/*"peekViewEditor.background": "*/ background: #1b2b34;
+/*"peekViewEditor.matchHighlightBackground": "*/ background: #343d46;
+/*"peekViewEditorGutter.background": "*/ background: #1b2b34;
+/*"peekViewResult.background": "*/ background: #1b2b34;
+/*"peekViewResult.fileForeground": "*/ background: #d8dee9;
+/*"peekViewResult.lineForeground": "*/ background: #fff;
+/*"peekViewResult.matchHighlightBackground": "*/ background: #343d46;
+/*"peekViewResult.selectionBackground": "*/ background: #343d46;
+/*"peekViewResult.selectionForeground": "*/ background: #fff;
+/*"peekViewTitle.background": "*/ background: #1b2b34;
+/*"peekViewTitleDescription.foreground": "*/ background: #d8dee9;
+/*"peekViewTitleLabel.foreground": "*/ background: #fac863;
+// picker
+/*"pickerGroup.border": "*/ background: #0f1c23;
+/*"pickerGroup.foreground": "*/ background: #d8dee9;
+// progressBar
+/*"progressBar.background": "*/ background: #5fb3b3;
+// scrollbar
+/*"scrollbar.shadow": "*/ background: #00000000;
+/*"scrollbarSlider.activeBackground": "*/ background: #343d46aa;
+/*"scrollbarSlider.background": "*/ background: #4f5b66aa;
+/*"scrollbarSlider.hoverBackground": "*/ background: #343d46aa;
+// selection
+/*"selection.background": "*/ background: #0d3a58;
+// settings
+/*"settings.dropdownListBorder": "*/ background: #5fb3b3;
+/*"settings.modifiedItemIndicator": "*/ background: #5fb3b3;
+// sidebar
+/*"sideBar.background": "*/ background: #191f40; /* #0f1c23 -> #191f40 */
+/*"sideBar.border": "*/ background: #1b2b34;
+/*"sideBar.foreground": "*/ background: #65737E;
+/*"sideBarSectionHeader.background": "*/ background: #1b2b34;
+/*"sideBarSectionHeader.foreground": "*/ background: #d8dee9;
+/*"sideBarTitle.foreground": "*/ background: #d8dee9;
+// statusBar
+/*"statusBar.background": "*/ background: #1b2b34;
+/*"statusBar.border": "*/ background: #343d46;
+/*"statusBar.debuggingBackground": "*/ background: #1b2b34;
+/*"statusBar.debuggingForeground": "*/ background: #4f5b66;
+/*"statusBar.foreground": "*/ background: #d8dee9;
+/*"statusBar.noFolderBackground": "*/ background: #1b2b34;
+/*"statusBar.noFolderBorder": "*/ background: #343d46;
+/*"statusBar.noFolderForeground": "*/ background: #d8dee9;
+/*"statusBarItem.activeBackground": "*/ background: #0f1c23;
+/*"statusBarItem.hoverBackground": "*/ background: #343d46;
+/*"statusBarItem.prominentBackground": "*/ background: #1b2b34;
+/*"statusBarItem.prominentHoverBackground": "*/ background: #343d46;
+// tab
+/*"tab.activeBackground": "*/ background: #343d46;
+/*"tab.activeForeground": "*/ background: #fff;
+/*"tab.activeModifiedBorder": "*/ background: #5fb3b3;
+/*"tab.border": "*/ background: #0b151b;
+/*"tab.activeBorder": "*/ background: #5fb3b3;
+/*"tab.inactiveBackground": "*/ background: #1b2b34;
+/*"tab.inactiveForeground": "*/ background: #65737e;
+/*"tab.inactiveModifiedBorder": "*/ background: #5fb3b377;
+/*"tab.unfocusedActiveForeground": "*/ background: #d8dee9;
+/*"tab.unfocusedInactiveForeground": "*/ background: #d8dee9;
+/*"tab.unfocusedActiveModifiedBorder": "*/ background: #5fb3b3bb;
+/*"tab.unfocusedInactiveModifiedBorder": "*/ background: #5fb3b377;
+// --- workbench: terminal
+/*"terminal.ansiBlack": "*/ background: #000;
+/*"terminal.ansiRed": "*/ background: #ed6f7d;
+/*"terminal.ansiGreen": "*/ background: #99c794;
+/*"terminal.ansiYellow": "*/ background: #fac863;
+/*"terminal.ansiBlue": "*/ background: #5a9bcf;
+/*"terminal.ansiMagenta": "*/ background: #c5a5c5;
+/*"terminal.ansiCyan": "*/ background: #5fb3b3;
+/*"terminal.ansiWhite": "*/ background: #d8dee9;
+/*"terminal.ansiBrightBlack": "*/ background: #65737e;
+/*"terminal.ansiBrightRed": "*/ background: #D6838C;
+/*"terminal.ansiBrightGreen": "*/ background: #C1DCBE;
+/*"terminal.ansiBrightYellow": "*/ background: #FFDE9B;
+/*"terminal.ansiBrightBlue": "*/ background: #8ABEE7;
+/*"terminal.ansiBrightMagenta": "*/ background: #EDCDED;
+/*"terminal.ansiBrightCyan": "*/ background: #9BE2E2;
+/*"terminal.ansiBrightWhite": "*/ background: #ffffff;
+/*"terminal.background": "*/ background: #1b2b34;
+/*"terminal.foreground": "*/ background: #d8dee9;
+/*"terminalCursor.background": "*/ background: #1b2b34;
+/*"terminalCursor.foreground": "*/ background: #fac863;
+// textBlockQuote
+/*"textBlockQuote.background": "*/ background: #343d46;
+/*"textBlockQuote.border": "*/ background: #5fb3b3;
+/*"textCodeBlock.background": "*/ background: #343d46;
+/*"textLink.activeForeground": "*/ background: #5a9bcf;
+/*"textLink.foreground": "*/ background: #5a9bcf;
+/*"textPreformat.foreground": "*/ background: #fac863;
+/*"textSeparator.foreground": "*/ background: #1b2b34;
+// titleBar
+/*"titleBar.activeBackground": "*/ background: #1b2b34;
+/*"titleBar.activeForeground": "*/ background: #d8dee9;
+/*"titleBar.inactiveBackground": "*/ background: #1b2b34;
+/*"titleBar.inactiveForeground": "*/ background: #65737e;
+/*"titleBar.border": "*/ background: #1b2b34;
+/*"window.title": "*/ background: ${dirty} ${activeEditorMedium}${separator}${rootName};
+// extras
+/*"walkThrough.embeddedEditorBackground": "*/ background: #1b2b34;
+/*"welcomePage.buttonBackground": "*/ background: #343d46;
+/*"welcomePage.buttonHoverBackground": "*/ background: #0f1c23;
+/*"widget.shadow": "*/ background: #0f1c23";
+}

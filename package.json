@@ -1,0 +1,27 @@
+{
+    "name": "Blueon",
+    "displayName": "Blueon",
+    "description": "New",
+    "version": "0.0.1",
+    "publisher": "Michael Reyes",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/preview.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/baumicon/blueon-vscode.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blueon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blueon.json"
+            }
+        ]
+    }
+}
